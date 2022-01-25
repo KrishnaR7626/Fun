@@ -1,3 +1,8 @@
+# This is a Ceaser cipher decrypter
+# It will take an encoded string and it will convert it into an array of integer values using a dictionary
+# Then it shifts the values and recieves the keys from the dictionary.
+# Which will decode the cipher
+
 String = input("Enter original string to decrypt:\n")
 String = String.lower()
 dictionary = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6, 'g': 7, 'h': 8, 'i': 9, 'j': 10, 'k': 11, 'l': 12, 'm': 13, 'n': 14, 'o': 15, 
